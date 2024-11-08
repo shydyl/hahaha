@@ -1,5 +1,6 @@
 # Response to Review Ca32
 
+We apologize for taking up your time. Due to limitations on response length and format, we have provided an additional link to further address your question. We sincerely appreciate your patience in reviewing it.
 
 ## Visual comparison with and without rotation strategy
 
