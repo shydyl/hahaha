@@ -23,12 +23,3 @@ We conducted additional experiments on FFHQ to Babies domain. We selected differ
 The few-shot generation task involves fine-tuning a model, initially trained on a source domain dataset, using a limited amount of target domain training data. As a result, evaluating the model with the source domain dataset would reveal underfitting, while using the target domain training set as a test reference risks overfitting to these specific samples. The appropriate evaluation is on the target domain test dataset, where strong performance indicates effective generalization. As shown in the table above, RSSR exhibits underfitting, while MineGAN suffers from severe overfitting. Only our approach achieves satisfactory performance.
 
 
-
-## Proof of the two problems mentioned in the introduction
-
-
-We utilized the labels provided in the [FFHQ features dataset](https://github.com/DCGM/ffhq-features-dataset) as our reference. Specifically, we selected three mutually exclusive classes—non-smiling, non-glasses-wearing females; smiling, non-glasses-wearing males; and non-smiling, glasses-wearing males. After performing PCA-based dimensionality reduction, we visualized their features. We conducted experiments under conditions with local-scale self-adaptive rotation, both with and without global-scale matching. The results are illustrated in the figure below.
-
-![Tsne_comparison](3.png)
-
-From the visualization results, we can see that when the rotation strategy is not applied, the relationship between domains collapses, and when OT is not applied, the shape of the domain changes.
