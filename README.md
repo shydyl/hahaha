@@ -1,4 +1,4 @@
-# Supplementary Material for SeAM: Self-Adaptive Matching for Few-shot Image Generation
+# Supplementary Material for "SeAM: Self-Adaptive Matching for Few-shot Image Generation"
 
 We apologize for taking up your time. Due to limitations on length and format, we provide additional links to further explain the issues in the paper. We sincerely appreciate your patience in reviewing it.
 
