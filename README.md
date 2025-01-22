@@ -37,3 +37,15 @@ To further illustrate the actual effects of the two losses we proposed, we utili
 ![Tsne_comparison](tsne.png)
 
 From the visualization results, we can see that when the local-scale self-adaptive rotation ($L_{ins}$) is not applied, the shape of the class changes. This indicates that without the local-scale constraint, the features within the class become more dispersed. When global-scale optimal distribution matching ($L_{dis}$) is not applied, the relationship between classes collapses. This indicates that without the global-scale constraint, the relationships between classes are affected. It significantly demonstrates that our proposed losses can achieve the goal we have claimed.
+
+
+## Q4: Failure Cases
+
+![Failure Cases](Failure.png)
+
+For the results in *FFHQ* to *Anime face*, some of the expressions, gestures, and positions of the characters in the two pictures are similar. However, at first glance, the two characters are very different, which is caused by the large gap between the two modalities. This phenomenon is also an important research topic in the few-shot generation. We will further explore this problem in our future work.
+
+
+## Q5: Ethical Statement
+
+This research does not involve any human participants, animals, or sensitive data. Therefore, there are no ethical issues associated with this work.
